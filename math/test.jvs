@@ -5,8 +5,17 @@ void main(){
 	double x = readDouble("Saisir un nombre réel");
 	double y = f(x);
 	println("L'image par f de votre nombre est "+y);
+	y = g(x);
+	println("L'image par la fonction inverse de votre nombre est "+y);
 }
 
 double f(double x){
 	return 2*x;
+}
+
+/*
+ * La fonction inverse.
+ */
+double g(double x){
+	return 1/x;
 }
