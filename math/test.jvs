@@ -1,0 +1,12 @@
+/**
+ * Fichier de tests de fonctions mathématiques
+ */
+void main(){
+	double x = readDouble("Saisir un nombre réel");
+	double y = f(x);
+	println("L'image par f de votre nombre est "+y);
+}
+
+double f(double x){
+	return 2*x;
+}
